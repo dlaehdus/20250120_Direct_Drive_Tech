@@ -3,8 +3,18 @@
 인휠모터의 모드설정, 속도설정등 기본적인 설정을 수행할수 있게 만든 코드
 기본적인 모터의 실행방법만 프로그래밍함.
 
-필요한 부품
+ggggg
+  gear1 - 한 모터의 설정을 세팅하기 위한 코드
+  gear2 - 한 모터의 설정을 세팅하기 위한 코드
+  wheelgear1 - gear1, gear2에서 사용하는 코드
+  wheelgear2 - wheelgear1 업그레이드 버전 
 
+src
+  carlim_drive - 인휠모터를 이용해서 키 입력에 따른 속도값이 모터에 적용되게끔 하는 코드 다이나믹셀도 사용하여 조향각 조정 아크만 계산
+  carlim_key - 키 입력을 감지하고 지속적인 키 입력에 반응하는 코드
+
+
+필요한 부품
 https://www.notion.so/2025-01-20-Direct-Drive-Tech-19792e9f586980e99adecb1413b5fd88
 https://en.directdrive.com/
 https://www.waveshare.com/product/usb-to-4ch-rs485.htm
